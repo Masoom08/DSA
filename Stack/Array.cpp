@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
-#include<iostream>
+#include <iostream>
+#define MAX 100
 using namespace std;
 
 class Stack{
@@ -16,7 +16,7 @@ public:
   bool isEmpty();
 };
 bool Stack::push(int x){
-  if(top>=(MAX-1){
+  if(top>=(MAX-1)){
     cout<<"Stack Overflow"<<endl;
     return false;
   }
@@ -28,7 +28,7 @@ bool Stack::push(int x){
 }
 int Stack::pop(){
   if(top<0){
-  cout<<"Empty Stack""<<endl;
+  cout<<"Empty Stack"<<endl;
   return 0;
   }
   else
@@ -36,7 +36,7 @@ int Stack::pop(){
 }
 int Stack::peek(){
   if(top<0){
-  cout<<"Empty Stack""<<endl;
+  cout<<"Empty Stack"<<endl;
   return 0;
   }
   else
@@ -60,8 +60,3 @@ int main(){
   }
   return 0;
 }  
-
-
-
-
-
